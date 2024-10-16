@@ -1,0 +1,136 @@
+<%- include('./partials/header.ejs') %>
+<main class="main">
+  <!-- Page Title -->
+  <div class="page-title" data-aos="fade">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">Find Jobs you like</li>
+        </ol>
+      </nav>
+      <h1>Hello Job</h1>
+    </div>
+  </div>
+
+  <div class="container my-3">
+    <div class="row g-5 justify-content-center">
+      <% jobs.forEach(job => { %>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <%= job.jobTitle %>, <%= job.employer.companyName %> || <%=
+            job.employer.companyEmail %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><%= job.jobTitle %></h5>
+            <h6 class="card-title"><%= job.jobDescription %></h6>
+            <h5>Responsibilities</h5>
+            <ul>
+              <% job.resoponsibility.forEach(e => { %>
+              <li><p class="card-text"><%= e %></p></li>
+              <% }) %>
+            </ul>
+            <h5>Requirements</h5>
+            <ul>
+              <% job.requirements.forEach(e => { %>
+              <li><p class="card-text"><%= e %></p></li>
+              <% }) %>
+            </ul>
+            <h6 class="card-title">
+              Job Type: <%= job.jobType %> || Location: New York, NY
+            </h6>
+
+            <!-- Apply Button -->
+            <% if (user) { %>
+            <a href="<%= job.applicationLink %>" class="btn btn-primary">
+              Apply
+            </a>
+            <% } else { %>
+            <a
+              href="#"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+            >
+              Apply
+            </a>
+            <% } %>
+
+            <!-- Login Modal (Bootstrap) -->
+            <div
+              class="modal fade"
+              id="loginModal"
+              tabindex="-1"
+              aria-labelledby="loginModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">
+                      Login Required
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Please log in to apply for this job.
+                  </div>
+                  <div class="modal-footer">
+                    <a href="/login" class="btn btn-primary">Login</a>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex card-footer text-body-secondary">
+            <p class="card-text mx-2">
+              From: <%= new Date(job.openDate).toLocaleDateString('en-US', {
+              year: 'numeric', month: 'long', day: 'numeric' }) %> ||
+            </p>
+            <p class="card-text">
+              To: <%= new Date(job.closeDate).toLocaleDateString('en-US', {
+              year: 'numeric', month: 'long', day: 'numeric' }) %>
+            </p>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+
+      <!-- <div class="col-md-4 sticky-md-top" data-aos="fade-up"> -->
+      <!-- Sticky element -->
+      <!-- <div>
+          <div class="p-4 mb-3 bg-body-tertiary rounded">
+            <h4 class="fst-italic">
+              <p style="vertical-align: inherit">Around</p>
+            </h4>
+
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Welcome to Buxi</h3>
+              <ul>
+                <li><strong>Step 1</strong>: SignUp/Login</li>
+                <li><strong>Step 2</strong>: Search your type of job</li>
+                <li><strong>Step 3</strong>: Target the companies</li>
+                <li><strong>Step 4</strong>: Apply for job</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</main>
+
+<%- include('./partials/footer.ejs') %>

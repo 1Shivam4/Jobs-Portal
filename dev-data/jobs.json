@@ -1,0 +1,582 @@
+[
+  {
+    "owner": "5c8a1d5b0190b214360dc057",
+    "jobTitle": "Software Engineer",
+    "companyLogo": "https://example.com/logo1.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Tech Solutions Inc.",
+      "companyEmail": "hr@techsolutions.com"
+    },
+    "salaryRange": "60000 - 80000",
+    "jobDescription": "We are looking for a passionate Software Engineer to develop high-quality software solutions.",
+    "resoponsibility": [
+      "Develop and maintain web applications",
+      "Collaborate with cross-functional teams",
+      "Troubleshoot and debug applications"
+    ],
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Proficiency in JavaScript, Node.js, and React",
+      "Strong problem-solving skills"
+    ],
+    "location": "New York, NY",
+    "applicationLink": "https://example.com/apply/software-engineer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-30T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "software-engineer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1dfa2f8fb814b56fa181",
+    "jobTitle": "Product Manager",
+    "companyLogo": "https://example.com/logo2.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Innovate Corp.",
+      "companyEmail": "careers@innovatecorp.com"
+    },
+    "salaryRange": "70000 - 90000",
+    "jobDescription": "As a Product Manager, you will drive the development and execution of product strategy.",
+    "resoponsibility": [
+      "Define product vision and strategy",
+      "Work closely with engineering teams",
+      "Conduct market research and analysis"
+    ],
+    "requirements": [
+      "Proven experience as a Product Manager",
+      "Excellent communication skills",
+      "Ability to analyze data and make informed decisions"
+    ],
+    "location": "San Francisco, CA",
+    "applicationLink": "https://example.com/apply/product-manager",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-15T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "product-manager",
+    "status": true
+  },
+  {
+    "owner": "5c8a1e1a2f8fb814b56fa182",
+    "jobTitle": "Data Scientist",
+    "companyLogo": "https://example.com/logo3.png",
+    "jobType": "online",
+    "employer": {
+      "companyName": "Data Insights LLC",
+      "companyEmail": "jobs@datainsights.com"
+    },
+    "salaryRange": "80000 - 100000",
+    "jobDescription": "Join our team as a Data Scientist to analyze large datasets and derive actionable insights.",
+    "resoponsibility": [
+      "Develop predictive models",
+      "Collaborate with stakeholders to define data requirements",
+      "Present findings to management"
+    ],
+    "requirements": [
+      "Master's degree in Data Science or a related field",
+      "Experience with Python and machine learning libraries",
+      "Strong analytical and statistical skills"
+    ],
+    "location": "Remote",
+    "applicationLink": "https://example.com/apply/data-scientist",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-20T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "data-scientist",
+    "status": true
+  },
+  {
+    "owner": "5c8a1ec62f8fb814b56fa183",
+    "jobTitle": "UX/UI Designer",
+    "companyLogo": "https://example.com/logo4.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Creative Minds",
+      "companyEmail": "jobs@creativeminds.com"
+    },
+    "salaryRange": "55000 - 75000",
+    "jobDescription": "We are looking for a creative UX/UI Designer to create user-friendly interfaces.",
+    "resoponsibility": [
+      "Design user-friendly interfaces",
+      "Conduct user research and testing",
+      "Collaborate with developers"
+    ],
+    "requirements": [
+      "Proven experience as a UX/UI Designer",
+      "Proficiency in design software (e.g., Figma, Sketch)",
+      "Strong portfolio showcasing design work"
+    ],
+    "location": "Austin, TX",
+    "applicationLink": "https://example.com/apply/ux-ui-designer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-25T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "ux-ui-designer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f292f8fb814b56fa184",
+    "jobTitle": "Marketing Specialist",
+    "companyLogo": "https://example.com/logo5.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Market Guru",
+      "companyEmail": "contact@marketguru.com"
+    },
+    "salaryRange": "50000 - 70000",
+    "jobDescription": "Seeking a Marketing Specialist to develop and execute marketing strategies.",
+    "resoponsibility": [
+      "Create marketing campaigns",
+      "Analyze market trends",
+      "Manage social media presence"
+    ],
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "Experience in digital marketing",
+      "Strong communication skills"
+    ],
+    "location": "Chicago, IL",
+    "applicationLink": "https://example.com/apply/marketing-specialist",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-15T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "marketing-specialist",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f4e2f8fb814b56fa185",
+    "jobTitle": "Web Developer",
+    "companyLogo": "https://example.com/logo6.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Web Innovations",
+      "companyEmail": "hr@webinnovations.com"
+    },
+    "salaryRange": "65000 - 85000",
+    "jobDescription": "Join our team as a Web Developer to build responsive websites.",
+    "resoponsibility": [
+      "Write clean and efficient code",
+      "Collaborate with designers and project managers",
+      "Maintain and update existing websites"
+    ],
+    "requirements": [
+      "Proficient in HTML, CSS, and JavaScript",
+      "Experience with front-end frameworks (React, Angular)",
+      "Strong attention to detail"
+    ],
+    "location": "Seattle, WA",
+    "applicationLink": "https://example.com/apply/web-developer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-01T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "web-developer",
+    "status": true
+  },
+  {
+    "owner": "5c8a201e2f8fb814b56fa186",
+    "jobTitle": "System Administrator",
+    "companyLogo": "https://example.com/logo7.png",
+    "jobType": "online",
+    "employer": {
+      "companyName": "Tech Hub",
+      "companyEmail": "jobs@techhub.com"
+    },
+    "salaryRange": "70000 - 90000",
+    "jobDescription": "Looking for a System Administrator to manage and maintain IT infrastructure.",
+    "resoponsibility": [
+      "Install and configure software",
+      "Monitor system performance",
+      "Troubleshoot hardware and software issues"
+    ],
+    "requirements": [
+      "Proven experience as a System Administrator",
+      "Familiarity with various operating systems (Linux, Windows)",
+      "Strong analytical and problem-solving skills"
+    ],
+    "location": "Boston, MA",
+    "applicationLink": "https://example.com/apply/system-administrator",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-28T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "system-administrator",
+    "status": true
+  },
+  {
+    "owner": "5c8a20d32f8fb814b56fa187",
+    "jobTitle": "Graphic Designer",
+    "companyLogo": "https://example.com/logo8.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Design Studio",
+      "companyEmail": "info@designstudio.com"
+    },
+    "salaryRange": "50000 - 75000",
+    "jobDescription": "Seeking a talented Graphic Designer to create visually stunning graphics.",
+    "resoponsibility": [
+      "Design logos, brochures, and other marketing materials",
+      "Collaborate with the marketing team",
+      "Present design concepts to clients"
+    ],
+    "requirements": [
+      "Experience with graphic design software (Adobe Creative Suite)",
+      "Strong portfolio of design work",
+      "Excellent communication skills"
+    ],
+    "location": "Los Angeles, CA",
+    "applicationLink": "https://example.com/apply/graphic-designer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-05T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "graphic-designer",
+    "status": true
+  },
+  {
+    "owner": "5c8a211f2f8fb814b56fa188",
+    "jobTitle": "DevOps Engineer",
+    "companyLogo": "https://example.com/logo9.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Cloud Tech",
+      "companyEmail": "careers@cloudtech.com"
+    },
+    "salaryRange": "80000 - 100000",
+    "jobDescription": "Join our team as a DevOps Engineer to streamline our development processes.",
+    "resoponsibility": [
+      "Manage CI/CD pipelines",
+      "Monitor system health and performance",
+      "Collaborate with development and operations teams"
+    ],
+    "requirements": [
+      "Experience with cloud services (AWS, Azure)",
+      "Knowledge of containerization (Docker, Kubernetes)",
+      "Strong scripting skills (Python, Bash)"
+    ],
+    "location": "Newark, NJ",
+    "applicationLink": "https://example.com/apply/devops-engineer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-30T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "devops-engineer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f292f8fb814b56fa184",
+    "jobTitle": "Marketing Specialist",
+    "companyLogo": "https://example.com/logo5.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Market Guru",
+      "companyEmail": "contact@marketguru.com"
+    },
+    "salaryRange": "50000 - 70000",
+    "jobDescription": "Seeking a Marketing Specialist to develop and execute marketing strategies.",
+    "resoponsibility": [
+      "Create marketing campaigns",
+      "Analyze market trends",
+      "Manage social media presence"
+    ],
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "Experience in digital marketing",
+      "Strong communication skills"
+    ],
+    "location": "Chicago, IL",
+    "applicationLink": "https://example.com/apply/marketing-specialist",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-15T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "marketing-specialist",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f4e2f8fb814b56fa185",
+    "jobTitle": "Web Developer",
+    "companyLogo": "https://example.com/logo6.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Web Innovations",
+      "companyEmail": "hr@webinnovations.com"
+    },
+    "salaryRange": "65000 - 85000",
+    "jobDescription": "Join our team as a Web Developer to build responsive websites.",
+    "resoponsibility": [
+      "Write clean and efficient code",
+      "Collaborate with designers and project managers",
+      "Maintain and update existing websites"
+    ],
+    "requirements": [
+      "Proficient in HTML, CSS, and JavaScript",
+      "Experience with front-end frameworks (React, Angular)",
+      "Strong attention to detail"
+    ],
+    "location": "Seattle, WA",
+    "applicationLink": "https://example.com/apply/web-developer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-01T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "web-developer",
+    "status": true
+  },
+  {
+    "owner": "5c8a201e2f8fb814b56fa186",
+    "jobTitle": "System Administrator",
+    "companyLogo": "https://example.com/logo7.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Tech Hub",
+      "companyEmail": "jobs@techhub.com"
+    },
+    "salaryRange": "70000 - 90000",
+    "jobDescription": "Looking for a System Administrator to manage and maintain IT infrastructure.",
+    "resoponsibility": [
+      "Install and configure software",
+      "Monitor system performance",
+      "Troubleshoot hardware and software issues"
+    ],
+    "requirements": [
+      "Proven experience as a System Administrator",
+      "Familiarity with various operating systems (Linux, Windows)",
+      "Strong analytical and problem-solving skills"
+    ],
+    "location": "Boston, MA",
+    "applicationLink": "https://example.com/apply/system-administrator",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-28T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "system-administrator",
+    "status": true
+  },
+  {
+    "owner": "5c8a20d32f8fb814b56fa187",
+    "jobTitle": "Graphic Designer",
+    "companyLogo": "https://example.com/logo8.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Design Studio",
+      "companyEmail": "info@designstudio.com"
+    },
+    "salaryRange": "50000 - 75000",
+    "jobDescription": "Seeking a talented Graphic Designer to create visually stunning graphics.",
+    "resoponsibility": [
+      "Design logos, brochures, and other marketing materials",
+      "Collaborate with the marketing team",
+      "Present design concepts to clients"
+    ],
+    "requirements": [
+      "Experience with graphic design software (Adobe Creative Suite)",
+      "Strong portfolio of design work",
+      "Excellent communication skills"
+    ],
+    "location": "Los Angeles, CA",
+    "applicationLink": "https://example.com/apply/graphic-designer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-05T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "graphic-designer",
+    "status": true
+  },
+  {
+    "owner": "5c8a211f2f8fb814b56fa188",
+    "jobTitle": "DevOps Engineer",
+    "companyLogo": "https://example.com/logo9.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Cloud Tech",
+      "companyEmail": "careers@cloudtech.com"
+    },
+    "salaryRange": "80000 - 100000",
+    "jobDescription": "Join our team as a DevOps Engineer to streamline our development processes.",
+    "resoponsibility": [
+      "Manage CI/CD pipelines",
+      "Monitor system health and performance",
+      "Collaborate with development and operations teams"
+    ],
+    "requirements": [
+      "Experience with cloud services (AWS, Azure)",
+      "Knowledge of containerization (Docker, Kubernetes)",
+      "Strong scripting skills (Python, Bash)"
+    ],
+    "location": "Newark, NJ",
+    "applicationLink": "https://example.com/apply/devops-engineer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-30T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "devops-engineer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1d5b0190b214360dc057",
+    "jobTitle": "Software Engineer",
+    "companyLogo": "https://example.com/logo1.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Tech Solutions Inc.",
+      "companyEmail": "hr@techsolutions.com"
+    },
+    "salaryRange": "60000 - 80000",
+    "jobDescription": "We are looking for a passionate Software Engineer to develop high-quality software solutions.",
+    "resoponsibility": [
+      "Develop and maintain web applications",
+      "Collaborate with cross-functional teams",
+      "Troubleshoot and debug applications"
+    ],
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Proficiency in JavaScript, Node.js, and React",
+      "Strong problem-solving skills"
+    ],
+    "location": "New York, NY",
+    "applicationLink": "https://example.com/apply/software-engineer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-30T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "software-engineer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1dfa2f8fb814b56fa181",
+    "jobTitle": "Product Manager",
+    "companyLogo": "https://example.com/logo2.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Innovate Corp.",
+      "companyEmail": "careers@innovatecorp.com"
+    },
+    "salaryRange": "70000 - 90000",
+    "jobDescription": "As a Product Manager, you will drive the development and execution of product strategy.",
+    "resoponsibility": [
+      "Define product vision and strategy",
+      "Work closely with engineering teams",
+      "Conduct market research and analysis"
+    ],
+    "requirements": [
+      "Proven experience as a Product Manager",
+      "Excellent communication skills",
+      "Ability to analyze data and make informed decisions"
+    ],
+    "location": "San Francisco, CA",
+    "applicationLink": "https://example.com/apply/product-manager",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-15T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "product-manager",
+    "status": true
+  },
+  {
+    "owner": "5c8a1e1a2f8fb814b56fa182",
+    "jobTitle": "Data Scientist",
+    "companyLogo": "https://example.com/logo3.png",
+    "jobType": "online",
+    "employer": {
+      "companyName": "Data Insights LLC",
+      "companyEmail": "jobs@datainsights.com"
+    },
+    "salaryRange": "80000 - 100000",
+    "jobDescription": "Join our team as a Data Scientist to analyze large datasets and derive actionable insights.",
+    "resoponsibility": [
+      "Develop predictive models",
+      "Collaborate with stakeholders to define data requirements",
+      "Present findings to management"
+    ],
+    "requirements": [
+      "Master's degree in Data Science or a related field",
+      "Experience with Python and machine learning libraries",
+      "Strong analytical and statistical skills"
+    ],
+    "location": "Remote",
+    "applicationLink": "https://example.com/apply/data-scientist",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-20T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "data-scientist",
+    "status": true
+  },
+  {
+    "owner": "5c8a1ec62f8fb814b56fa183",
+    "jobTitle": "UX/UI Designer",
+    "companyLogo": "https://example.com/logo4.png",
+    "jobType": "online",
+    "employer": {
+      "companyName": "Creative Minds",
+      "companyEmail": "jobs@creativeminds.com"
+    },
+    "salaryRange": "55000 - 75000",
+    "jobDescription": "We are looking for a creative UX/UI Designer to create user-friendly interfaces.",
+    "resoponsibility": [
+      "Design user-friendly interfaces",
+      "Conduct user research and testing",
+      "Collaborate with developers"
+    ],
+    "requirements": [
+      "Proven experience as a UX/UI Designer",
+      "Proficiency in design software (e.g., Figma, Sketch)",
+      "Strong portfolio showcasing design work"
+    ],
+    "location": "Austin, TX",
+    "applicationLink": "https://example.com/apply/ux-ui-designer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-25T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "ux-ui-designer",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f292f8fb814b56fa184",
+    "jobTitle": "Marketing Specialist",
+    "companyLogo": "https://example.com/logo5.png",
+    "jobType": "online",
+    "employer": {
+      "companyName": "Market Guru",
+      "companyEmail": "contact@marketguru.com"
+    },
+    "salaryRange": "50000 - 70000",
+    "jobDescription": "Seeking a Marketing Specialist to develop and execute marketing strategies.",
+    "resoponsibility": [
+      "Create marketing campaigns",
+      "Analyze market trends",
+      "Manage social media presence"
+    ],
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "Experience in digital marketing",
+      "Strong communication skills"
+    ],
+    "location": "Chicago, IL",
+    "applicationLink": "https://example.com/apply/marketing-specialist",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-10-15T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "marketing-specialist",
+    "status": true
+  },
+  {
+    "owner": "5c8a1f4e2f8fb814b56fa185",
+    "jobTitle": "Web Developer",
+    "companyLogo": "https://example.com/logo6.png",
+    "jobType": "on-site",
+    "employer": {
+      "companyName": "Web Innovations",
+      "companyEmail": "hr@webinnovations.com"
+    },
+    "salaryRange": "65000 - 85000",
+    "jobDescription": "Join our team as a Web Developer to build responsive websites.",
+    "resoponsibility": [
+      "Write clean and efficient code",
+      "Collaborate with designers and project managers",
+      "Maintain and update existing websites"
+    ],
+    "requirements": [
+      "Proficient in HTML, CSS, and JavaScript",
+      "Experience with front-end frameworks (React, Angular)",
+      "Strong attention to detail"
+    ],
+    "location": "Seattle, WA",
+    "applicationLink": "https://example.com/apply/web-developer",
+    "openDate": "2024-09-30T00:00:00.000Z",
+    "closeDate": "2024-11-01T00:00:00.000Z",
+    "postedDate": "2024-09-29T12:00:00.000Z",
+    "slug": "web-developer",
+    "status": true
+  }
+]

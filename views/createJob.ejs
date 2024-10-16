@@ -1,0 +1,109 @@
+<%- include('./partials/header.ejs') %>
+
+<main>
+  <div class="container my-5 py-4">
+    <h2>Post a new job</h2>
+    <hr />
+    <form class="row g-3 my-3" id="jobForm">
+      <div class="col-md-6">
+        <label for="jobTitle" class="form-label">Job Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="jobTitle"
+          placeholder="Job Title"
+          required
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="companyName" class="form-label">Company Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="companyName"
+          placeholder="Company Name"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="companyEmail" class="form-label">Company Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="companyEmail"
+          placeholder="Company Email"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="companyLogo" class="form-label">Company Logo</label>
+        <input
+          type="file"
+          class="form-control"
+          id="companyLogo"
+          placeholder="Company Email"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <label for="salaryRange" class="form-label">Salary Range</label>
+        <input
+          type="text"
+          class="form-control"
+          id="salaryRange"
+          placeholder="$0-$10000"
+        />
+      </div>
+      <div class="col-12">
+        <label for="jobDescription" class="form-label">Job Description</label>
+        <textarea
+          class="form-control"
+          placeholder="Enter the breif Description about the job."
+          id="jobDescription"
+          style="height: 100px"
+        ></textarea>
+      </div>
+      <div class="col-12">
+        <label for="resoponsibility" class="form-label"
+          >Job Responsibilities</label
+        >
+        <textarea
+          class="form-control"
+          placeholder="Job Responsibilities"
+          id="resoponsibility"
+          style="height: 100px"
+        ></textarea>
+      </div>
+      <div class="col-12">
+        <label for="requirements" class="form-label">Requirements</label>
+        <input
+          class="form-control"
+          placeholder="Job requirements"
+          id="requirements"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" class="form-control" id="location" required />
+      </div>
+      <div class="mb-3">
+        <label for="applicationLink" class="form-label">Application Link</label>
+        <input type="url" class="form-control" id="applicationLink" required />
+      </div>
+
+      <div class="col-md-4">
+        <label for="openDate" class="form-label">Open Date</label>
+        <input type="date" class="form-control" id="openDate" required />
+      </div>
+      <div class="col-md-2">
+        <label for="closeDate" class="form-label">Close Date</label>
+        <input type="date" class="form-control" id="closeDate" required />
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Add Job</button>
+      </div>
+    </form>
+  </div>
+</main>
+<%- include('./partials/footer.ejs') %>
