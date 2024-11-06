@@ -14,6 +14,10 @@
   </div>
 
   <div class="container my-3">
+    <div class="p-2 m-2 d-flex justify-content-between">
+      <h4>Available Jobs : <%= available %></h4>
+      <h4>Total Jobs: <%= total %></h4>
+    </div>
     <div class="row g-5 justify-content-center">
       <% jobs.forEach(job => { %>
       <div class="col-md-6">

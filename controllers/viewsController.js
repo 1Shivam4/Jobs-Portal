@@ -10,9 +10,10 @@ const scheduler = cron.schedule('* * * * *', async () => {
 
     const jobs = await Job.find();
     jobs.forEach((job) => {
-      console.log(
-        `Job ${job._id}: openDate = ${job.openDate}, closeDate = ${job.closeDate}`
-      );
+      console
+        .log
+        // `Job ${job._id}: openDate = ${job.openDate}, closeDate = ${job.closeDate}`
+        ();
     });
 
     await Job.updateMany(
@@ -35,8 +36,15 @@ const scheduler = cron.schedule('* * * * *', async () => {
 });
 
 exports.home = catchAsync(async (req, res, next) => {
+  const allJobs = await Job.find();
   const jobs = await Job.find({ status: true }).sort({ createdAt: -1 });
-  res.status(200).render('index.ejs', { jobs: jobs, user: res.locals.user });
+  console.log(allJobs.length);
+  res.status(200).render('index.ejs', {
+    jobs: jobs,
+    user: res.locals.user,
+    available: jobs.length,
+    total: allJobs.length,
+  });
 });
 
 exports.login = (req, res, next) => {

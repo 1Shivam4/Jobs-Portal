@@ -9,11 +9,8 @@ const jobForm = document.getElementById('jobForm');
 if (loginForm) {
   loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    const name = document.getElementById('loginName').value;
     const email = document.getElementById('loginEmail').value;
     const password = document.getElementById('loginPassword').value;
-
-    console.log('Login Data:', { email, password }); // Log to check values
 
     // Call your login function
     login(email, password);

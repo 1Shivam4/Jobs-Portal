@@ -4,7 +4,6 @@ const { promisify } = require('util');
 const User = require('../models/userModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
-const createMessage = require('../utils/sms');
 
 const signToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -70,6 +69,7 @@ exports.login = catchAsync(async (req, res, next) => {
     return next(new AppError(`Incorrect number or Password`, 401));
   }
 
+  console.log(user);
   createSendToken(user, 200, res);
 });
 
