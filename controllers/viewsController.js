@@ -36,14 +36,10 @@ const scheduler = cron.schedule('* * * * *', async () => {
 });
 
 exports.home = catchAsync(async (req, res, next) => {
-  const allJobs = await Job.find();
   const jobs = await Job.find({ status: true }).sort({ createdAt: -1 });
-  console.log(allJobs.length);
   res.status(200).render('index.ejs', {
     jobs: jobs,
     user: res.locals.user,
-    available: jobs.length,
-    total: allJobs.length,
   });
 });
 
@@ -61,3 +57,15 @@ exports.jobs = (req, res, next) => {
 exports.createJob = (req, res, next) => {
   res.status(200).render('createJob.ejs', { user: res.locals.user });
 };
+
+exports.count = catchAsync(async (req, res, next) => {
+  const allJobs = await Job.find();
+  const jobs = await Job.find({ status: true }).sort({ createdAt: -1 });
+  res
+    .status(200)
+    .render('count.ejs', {
+      available: jobs.length,
+      total: allJobs.length,
+      user: res.locals.user,
+    });
+});

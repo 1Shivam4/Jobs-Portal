@@ -8,6 +8,7 @@ route.use(authController.isLoggedIn);
 
 route.get('/', authController.isLoggedIn, viewController.home);
 route.get('/about', authController.isLoggedIn, viewController.about);
+route.get('/count', authController.isLoggedIn, viewController.count);
 
 route.route('/login').get(authController.isLoggedIn, viewController.login);
 route.route('/createJob').get(authController.protect, viewController.createJob);
